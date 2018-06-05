@@ -20,7 +20,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $(document).on('keypress',function(evt){
+  $('#typing').on('keypress',function(evt){
     console.log('evt='+evt+' and evt.which='+evt.which);
     if(evt.which===71){
       alert('G')
